@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	NFSLock
-Summary:	File::NFSLock - perl module to do NFS (or not) locking
-#Summary(pl):	
+Summary:	File::NFSLock - Perl module to do NFS (or not) locking
+Summary(pl):	File::NFSLock - modu³ Perla do zak³adania (lub nie) blokad na NFS-ie
 Name:		perl-File-NFSLock
 Version:	1.20
 Release:	1
@@ -21,14 +21,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Program based of concept of hard linking of files being atomic across
-NFS.  This concept was mentioned in Mail::Box::Locker (which was
-originally presented in Mail::Folder::Maildir).  Some routine flow is
-taken from there -- particularly the idea of creating a random local
+NFS. This concept was mentioned in Mail::Box::Locker (which was
+originally presented in Mail::Folder::Maildir). Some routine flow is
+taken from there - particularly the idea of creating a random local
 file, hard linking a common file to the local file, and then checking
-the nlink status.  Some ideologies were not complete (uncache
+the nlink status. Some ideologies were not complete (uncache
 mechanism, shared locking) and some coding was even incorrect (wrong
-stat index).  File::NFSLock was written to be light, generic,
-and fast.
+stat index). File::NFSLock was written to be light, generic, and fast.
 
 # %description -l pl
 # TODO
