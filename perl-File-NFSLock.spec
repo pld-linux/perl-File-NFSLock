@@ -29,8 +29,16 @@ the nlink status. Some ideologies were not complete (uncache
 mechanism, shared locking) and some coding was even incorrect (wrong
 stat index). File::NFSLock was written to be light, generic, and fast.
 
-# %description -l pl
-# TODO
+%description -l pl
+Program oparty jest na idei twardych dowi±zañ plików, bêd±cych
+atomowymi po NFS-ie. Idea ta by³a wspomniana w Mail::Box::Locker
+(oryginalnie zaprezentowanym w Mail::Folder::Maildir). Czê¶æ kodu jest
+wziêta stamt±d - w szczególno¶ci pomys³ tworzenia losowego pliku
+lokalnie, tworzenia twardego dowi±zania wspólnego pliku do pliku
+lokalnego i nastêpnie sprawdzania stanu liczby dowi±zañ. Niektóre
+pomys³y nie by³y kompletne (mechanizm uncache, blokowanie
+wspó³dzielone), a niektóre by³y zakodowane niepoprawnie (z³y indeks
+stat). File::NFSLock zosta³ napisany by byæ lekkim, ogólnym i szybkim.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
