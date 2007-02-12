@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	NFSLock
 Summary:	File::NFSLock - Perl module to do NFS (or not) locking
-Summary(pl):	File::NFSLock - modu³ Perla do zak³adania (lub nie) blokad na NFS-ie
+Summary(pl.UTF-8):   File::NFSLock - moduÅ‚ Perla do zakÅ‚adania (lub nie) blokad na NFS-ie
 Name:		perl-File-NFSLock
 Version:	1.20
 Release:	1
@@ -29,16 +29,16 @@ the nlink status. Some ideologies were not complete (uncache
 mechanism, shared locking) and some coding was even incorrect (wrong
 stat index). File::NFSLock was written to be light, generic, and fast.
 
-%description -l pl
-Program oparty jest na idei twardych dowi±zañ plików, bêd±cych
-atomowymi po NFS-ie. Idea ta by³a wspomniana w Mail::Box::Locker
-(oryginalnie zaprezentowanym w Mail::Folder::Maildir). Czê¶æ kodu jest
-wziêta stamt±d - w szczególno¶ci pomys³ tworzenia losowego pliku
-lokalnie, tworzenia twardego dowi±zania wspólnego pliku do pliku
-lokalnego i nastêpnie sprawdzania stanu liczby dowi±zañ. Niektóre
-pomys³y nie by³y kompletne (mechanizm uncache, blokowanie
-wspó³dzielone), a niektóre by³y zakodowane niepoprawnie (z³y indeks
-stat). File::NFSLock zosta³ napisany by byæ lekkim, ogólnym i szybkim.
+%description -l pl.UTF-8
+Program oparty jest na idei twardych dowiÄ…zaÅ„ plikÃ³w, bÄ™dÄ…cych
+atomowymi po NFS-ie. Idea ta byÅ‚a wspomniana w Mail::Box::Locker
+(oryginalnie zaprezentowanym w Mail::Folder::Maildir). CzÄ™Å›Ä‡ kodu jest
+wziÄ™ta stamtÄ…d - w szczegÃ³lnoÅ›ci pomysÅ‚ tworzenia losowego pliku
+lokalnie, tworzenia twardego dowiÄ…zania wspÃ³lnego pliku do pliku
+lokalnego i nastÄ™pnie sprawdzania stanu liczby dowiÄ…zaÅ„. NiektÃ³re
+pomysÅ‚y nie byÅ‚y kompletne (mechanizm uncache, blokowanie
+wspÃ³Å‚dzielone), a niektÃ³re byÅ‚y zakodowane niepoprawnie (zÅ‚y indeks
+stat). File::NFSLock zostaÅ‚ napisany by byÄ‡ lekkim, ogÃ³lnym i szybkim.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
