@@ -8,12 +8,12 @@
 Summary:	File::NFSLock - Perl module to do NFS (or not) locking
 Summary(pl.UTF-8):	File::NFSLock - moduł Perla do zakładania (lub nie) blokad na NFS-ie
 Name:		perl-File-NFSLock
-Version:	1.20
-Release:	2
+Version:	1.21
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	68bddc5e2c32d9748ae689f398fc1147
+# Source0-md5:	8067802ce7247d0697d6203e26cb7bd7
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
