@@ -4,7 +4,6 @@
 
 %define	pdir	File
 %define	pnam	NFSLock
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::NFSLock - Perl module to do NFS (or not) locking
 Summary(pl.UTF-8):	File::NFSLock - moduł Perla do zakładania (lub nie) blokad na NFS-ie
 Name:		perl-File-NFSLock
